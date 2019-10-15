@@ -1,0 +1,17 @@
+language: java
+
+git:
+  depth: 3
+  
+# safelist
+branches:
+  only:
+  - master
+  - stable
+
+script:
+  - javac Palindrome.java && java Palindrome
+  - javac Merge.java && java Merge
+
+notifications:
+  email: false
