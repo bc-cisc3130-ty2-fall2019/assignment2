@@ -7,7 +7,7 @@ git:
 branches:
   only:
   - master
-  - stable
+  - ty2
 
 script:
   - javac Palindrome.java && java Palindrome
